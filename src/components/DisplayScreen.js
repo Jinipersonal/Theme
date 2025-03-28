@@ -11,10 +11,10 @@ const DisplayScreen = ({ navigation }) => {
     <View style={[styles.container, { backgroundColor: isDarkMode ? '#121212' : '#F5F5F5' }]}>
       {/* <Card style={styles.card}>
         <Card.Content> */}
-          <Text style={[styles.text, { color: isDarkMode ? '#FFF' : '#000', fontSize }]}>
-            This is a sample text. The font size and theme are applied dynamically.
-          </Text>
-        {/* </Card.Content>
+      <Text style={[styles.text, { color: isDarkMode ? '#FFF' : '#000', fontSize }]}>
+        This is a sample text. The font size and theme are applied dynamically.
+      </Text>
+      {/* </Card.Content>
       </Card> */}
 
       <Button mode="contained" onPress={() => navigation.navigate('Settings')} style={styles.navigateButton}>
